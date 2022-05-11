@@ -10,8 +10,8 @@ function verifyWinningButton(clicked_id) {
   var winnnerText = winner.toString();
   var clickedIdText = clicked_id.toString();
   if (clicked_id.localeCompare(winnnerText) == 0) {
-    alert("Butonul castigator!");
+    alert("Winner!");
   } else {
-    alert("Buton necastigator!");
+    alert("Looser!");
   }
 }
